@@ -10,19 +10,22 @@
 Pod::Spec.new do |s|
   s.name             = "LPAlert"
   s.version          = "0.1.0"
-  s.summary          = "A short description of LPAlert."
+  s.summary          = "A customizable alert class for IOS"
   s.description      = <<-DESC
-                       An optional longer description of LPAlert
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       - Add a title (optional)
+					   - Add a subtitle (optional)
+					   - Add any number of body labels (each style as you like)
+					   - Add any number of buttons (each style as you like) 
+					   * Note must be at least 1 button to close the alert!
+					   - Control background and font colors for each label.
+					   - Add blocks to buttons for custom actions
+					   - Layout buttons side by side, or stacked.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LPAlert"
+  s.homepage         = "https://github.com/lansdon/LPAlert"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "lansdon" => "lansdon.page@email.wsu.edu" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LPAlert.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/<lansdon>/LPAlert.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -30,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes'
   s.resources = 'Pod/Assets/*.png'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
