@@ -105,7 +105,7 @@ typedef void ((^ButtonCallbackBlock)(NSString* key));
 - (UILabel*) addLabel:(NSString*)text fontSize:(NSInteger)fontSize fontName:(NSString*)fontName color:(UIColor*)color;
 
 //////////////////////////////////////////////////
-// Add Text (goes after the title and subtitle from top to bottom)
+// Add a single background image that is centered in the view with transparency
 //////////////////////////////////////////////////
 - (void) setBackgroundImageWithFile:(NSString*)filename;
 - (void) setBackgroundImage:(UIImage*)image;

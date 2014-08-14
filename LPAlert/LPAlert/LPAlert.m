@@ -528,8 +528,8 @@ static LPAlert* __singletonAlert = nil;
 	
 	
 	////////////////////////////// Labels //////////////////////////////
-	// We calculate buttons before body in order to not allocate too much room for buttons
-	// when they don't need it.
+	// Lastly, calculate the height of the labels.
+	// Note: Labels will fill up the remaining unused area between buttons and subtitle.
 	/////////////////////////////////////////////////////////////////////
 	float defaultLabelAreaHeight = viewHeight - (viewHeight*([_buttonsHeightPerc floatValue]+headerHeightPerc));	// Default percent of the REMAINING height for labels.
 	
@@ -717,7 +717,6 @@ static LPAlert* __singletonAlert = nil;
 -(void) setFontType:(AlertFontTypes)fontType name:(NSString*)name size:(int)size {
 	[self setFontType:fontType name:name size:size color:nil];
 }
-
 
 -(void) setFontType:(AlertFontTypes)fontType font:(UIFont*)font color:(UIColor*)color {
 	[self setFontType:fontType name:[font fontName] size:[font pointSize] color:color];

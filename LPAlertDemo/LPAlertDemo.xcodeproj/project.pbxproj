@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590B76DB199B337C0075DD8B /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B76DA199B337C0075DD8B /* DemoTableViewController.m */; };
+		590B76DE199B34050075DD8B /* LabelConfigTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B76DD199B34050075DD8B /* LabelConfigTableViewCell.m */; };
 		591189971999E34E00E8AEF8 /* libLPAlert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591189961999E34E00E8AEF8 /* libLPAlert.a */; };
 		59D544D51999DA8E00D3100A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D544D41999DA8E00D3100A /* Foundation.framework */; };
 		59D544D71999DA8E00D3100A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D544D61999DA8E00D3100A /* CoreGraphics.framework */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		590B76D9199B337C0075DD8B /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		590B76DA199B337C0075DD8B /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		590B76DC199B34050075DD8B /* LabelConfigTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelConfigTableViewCell.h; sourceTree = "<group>"; };
+		590B76DD199B34050075DD8B /* LabelConfigTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelConfigTableViewCell.m; sourceTree = "<group>"; };
 		591189961999E34E00E8AEF8 /* libLPAlert.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLPAlert.a; path = "../LPAlert/build/Debug-iphoneos/libLPAlert.a"; sourceTree = "<group>"; };
 		59D544D11999DA8E00D3100A /* LPAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D544D41999DA8E00D3100A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -126,6 +132,10 @@
 				59D544ED1999DA8E00D3100A /* ViewController.m */,
 				59D544EF1999DA8E00D3100A /* Images.xcassets */,
 				59D544DB1999DA8E00D3100A /* Supporting Files */,
+				590B76D9199B337C0075DD8B /* DemoTableViewController.h */,
+				590B76DA199B337C0075DD8B /* DemoTableViewController.m */,
+				590B76DC199B34050075DD8B /* LabelConfigTableViewCell.h */,
+				590B76DD199B34050075DD8B /* LabelConfigTableViewCell.m */,
 			);
 			path = LPAlertDemo;
 			sourceTree = "<group>";
@@ -257,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590B76DB199B337C0075DD8B /* DemoTableViewController.m in Sources */,
 				59D544EE1999DA8E00D3100A /* ViewController.m in Sources */,
+				590B76DE199B34050075DD8B /* LabelConfigTableViewCell.m in Sources */,
 				59D544E51999DA8E00D3100A /* AppDelegate.m in Sources */,
 				59D544E11999DA8E00D3100A /* main.m in Sources */,
 			);
