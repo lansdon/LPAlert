@@ -99,11 +99,30 @@ typedef NS_ENUM(NSUInteger, TableSections) {
 	buttonConfigs = [[NSMutableArray alloc] init];
 	labelConfigs = [[NSMutableArray alloc] init];
 	
+	// Title
 	_titleConfig = [[LabelConfig alloc] init];
-	_titleConfig.text = @"Chill Man";
+	_titleConfig.text = @"LPAlert Demo";
+	_titleConfig.bgColor = @(BLACK_COLOR);
+	_titleConfig.fontColor = @(RED_COLOR);
+	_titleConfig.fontSize = @(36);
+	
+	// Subtitle (empty)
 	_subtitleConfig = [[LabelConfig alloc] init];
+	
+	// Label
+	LabelConfig* labelConfig = [[LabelConfig alloc] init];
+	labelConfig.text = @"Listen to what I have to say!";
+	labelConfig.bgColor = @(CLEAR_COLOR);
+	labelConfig.fontColor = @(BLACK_COLOR);
+	labelConfig.fontSize = @(28);
+	[labelConfigs addObject:labelConfig];
+
+	// 1 button
 	LabelConfig* btnConfig = [[LabelConfig alloc] init];
 	btnConfig.text = @"Okie Dokey";
+	btnConfig.bgColor = @(GREEN_COLOR);
+	btnConfig.fontColor = @(BLACK_COLOR);
+	btnConfig.fontSize = @(36);
 	[buttonConfigs addObject:btnConfig];
 	
 	[self styleChanged:nil];
