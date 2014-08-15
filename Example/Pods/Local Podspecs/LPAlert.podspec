@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "LPAlert"
-  s.version          = "0.1.0"
+  s.version          = "0.1.2"
   s.summary          = "A customizable alert class for IOS"
   s.description      = <<-DESC
                        - Add a title (optional)
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/lansdon/LPAlert"
   s.license          = 'MIT'
-  s.author           = { "lansdon" => "lansdon.page@email.wsu.edu" }
+  s.author           = { "Lansdon Page" => "lansdon.dev@gmail.com" }
   s.source           = { :git => "https://github.com/lansdon/LPAlert.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'

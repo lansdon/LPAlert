@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-lansdon, lansdon.page@email.wsu.edu
+Lansdon Page, lansdon.dev@gmail.com
 
 ## License
 
